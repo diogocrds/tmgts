@@ -287,14 +287,14 @@
                 <string>int:</string>
             </attr>
         </edge>
-        <edge from="n45" to="n41">
-            <attr name="label">
-                <string>at</string>
-            </attr>
-        </edge>
         <edge from="n45" to="n53">
             <attr name="label">
                 <string>=</string>
+            </attr>
+        </edge>
+        <edge from="n45" to="n41">
+            <attr name="label">
+                <string>at</string>
             </attr>
         </edge>
         <edge from="n30" to="n30">
@@ -352,6 +352,11 @@
                 <string>new:count</string>
             </attr>
         </edge>
+        <edge from="n34" to="n9">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
         <edge from="n34" to="n24">
             <attr name="label">
                 <string>del:count</string>
@@ -362,19 +367,9 @@
                 <string>has</string>
             </attr>
         </edge>
-        <edge from="n34" to="n9">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
         <edge from="n29" to="n29">
             <attr name="label">
                 <string>prod:</string>
-            </attr>
-        </edge>
-        <edge from="n29" to="n24">
-            <attr name="label">
-                <string>arg:0</string>
             </attr>
         </edge>
         <edge from="n29" to="n51">
@@ -385,6 +380,11 @@
         <edge from="n29" to="n15">
             <attr name="label">
                 <string>int:add</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n24">
+            <attr name="label">
+                <string>arg:0</string>
             </attr>
         </edge>
         <edge from="n15" to="n15">
@@ -437,6 +437,11 @@
                 <string>type:item</string>
             </attr>
         </edge>
+        <edge from="n52" to="n25">
+            <attr name="label">
+                <string>target</string>
+            </attr>
+        </edge>
         <edge from="n52" to="n8">
             <attr name="label">
                 <string>id</string>
@@ -445,11 +450,6 @@
         <edge from="n52" to="n42">
             <attr name="label">
                 <string>snapshot</string>
-            </attr>
-        </edge>
-        <edge from="n52" to="n25">
-            <attr name="label">
-                <string>target</string>
             </attr>
         </edge>
         <edge from="n28" to="n28">
@@ -507,14 +507,39 @@
                 <string>type:T</string>
             </attr>
         </edge>
-        <edge from="n43" to="n42">
-            <attr name="label">
-                <string>new:has</string>
-            </attr>
-        </edge>
         <edge from="n43" to="n44">
             <attr name="label">
                 <string>del:status</string>
+            </attr>
+        </edge>
+        <edge from="n43" to="n38">
+            <attr name="label">
+                <string>del:op</string>
+            </attr>
+        </edge>
+        <edge from="n43" to="n15">
+            <attr name="label">
+                <string>new:id</string>
+            </attr>
+        </edge>
+        <edge from="n43" to="n47">
+            <attr name="label">
+                <string>has</string>
+            </attr>
+        </edge>
+        <edge from="n43" to="n40">
+            <attr name="label">
+                <string>new:op</string>
+            </attr>
+        </edge>
+        <edge from="n43" to="n53">
+            <attr name="label">
+                <string>del:id</string>
+            </attr>
+        </edge>
+        <edge from="n43" to="n42">
+            <attr name="label">
+                <string>new:has</string>
             </attr>
         </edge>
         <edge from="n43" to="n31">
@@ -525,34 +550,9 @@
                 <string>440 0 236 195 361 175 11</string>
             </attr>
         </edge>
-        <edge from="n43" to="n53">
-            <attr name="label">
-                <string>del:id</string>
-            </attr>
-        </edge>
-        <edge from="n43" to="n47">
-            <attr name="label">
-                <string>has</string>
-            </attr>
-        </edge>
         <edge from="n43" to="n39">
             <attr name="label">
                 <string>new:status</string>
-            </attr>
-        </edge>
-        <edge from="n43" to="n15">
-            <attr name="label">
-                <string>new:id</string>
-            </attr>
-        </edge>
-        <edge from="n43" to="n40">
-            <attr name="label">
-                <string>new:op</string>
-            </attr>
-        </edge>
-        <edge from="n43" to="n38">
-            <attr name="label">
-                <string>del:op</string>
             </attr>
         </edge>
         <edge from="n38" to="n38">
@@ -565,14 +565,14 @@
                 <string>type:activeReaders</string>
             </attr>
         </edge>
-        <edge from="n36" to="n53">
-            <attr name="label">
-                <string>del:has</string>
-            </attr>
-        </edge>
         <edge from="n36" to="n35">
             <attr name="label">
                 <string>at</string>
+            </attr>
+        </edge>
+        <edge from="n36" to="n53">
+            <attr name="label">
+                <string>del:has</string>
             </attr>
         </edge>
         <edge from="n36" to="n41">
@@ -620,11 +620,6 @@
                 <string>type:Cplog</string>
             </attr>
         </edge>
-        <edge from="n31" to="n40">
-            <attr name="label">
-                <string>del:location</string>
-            </attr>
-        </edge>
         <edge from="n31" to="n52">
             <attr name="label">
                 <string>has</string>
@@ -633,6 +628,11 @@
         <edge from="n31" to="n0">
             <attr name="label">
                 <string>count</string>
+            </attr>
+        </edge>
+        <edge from="n31" to="n40">
+            <attr name="label">
+                <string>del:location</string>
             </attr>
         </edge>
         <edge from="n31" to="n41">
